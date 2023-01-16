@@ -1,0 +1,60 @@
+.container {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-template-rows: 420px;
+  grid-column-gap: 20px;
+  justify-content: space-between;
+  
+  
+}
+
+.nested {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 56px 56px 95px 20px 1fr;
+  /*align-items: center;
+  justify-items: center;*/
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.category, .price, .description, .button {
+  align-self: center;
+  justify-self: center;
+}
+
+.price {
+  color: white;
+  background-color: red;
+  place-self: stretch;
+  text-align: center;
+  padding: 20px;
+}
+
+.description {
+  text-align: center;
+  padding: 25px;
+}
+
+.button {
+  color: white;
+  font-weight: bold;
+  background-color: darkblue;
+  display: inline-block;
+  padding: 7px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 25px;
+  
+}
+
+a {
+  text-decoration:none; 
+}
+
+ul {
+  padding: 20px 60px;
+  
+  
+}
+ 
